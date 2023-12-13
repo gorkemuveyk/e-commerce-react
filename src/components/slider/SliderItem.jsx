@@ -2,11 +2,11 @@ import PropType from "prop-types";
 
 const SliderItem = ({ img, title, desc }) => {
   return (
-    <div className=" !flex justify-center items-center gap-2 p-8 w-full">
-      <img src={img} className="w-1/2" alt="" />
+    <div className=" !flex sm:flex-row flex-col justify-center items-center gap-2 p-8 w-full">
+      <img src={img} className="sm:w-1/2 w-full" alt="" />
       <div className="ml-5  select-text">
-        <h3 className="text-6xl text-orange-500 my-2 ">{title}</h3>
-        <p className="text-lg ">{desc}</p>
+        <h3 className="sm:text-6xl text-4xl text-orange-500 my-2 ">{title}</h3>
+        <p className="sm:text-lg ">{desc}</p>
       </div>
     </div>
   );

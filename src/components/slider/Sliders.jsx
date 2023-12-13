@@ -17,7 +17,6 @@ const Sliders = () => {
   };
 
   const settings = {
-    dots: true,
     infinite: true,
     speed: 500,
     autoplay: true,
@@ -35,7 +34,12 @@ const Sliders = () => {
             "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis animi nemo omnis illum recusandae optio numquam magni in vel sapiente, voluptates maxime, cupiditate molestiae officia necessitatibus consequatur explicabo aspernatur eaque."
           }
           title={"Apple Watch Series 8"}
-          ref={ref}
+        />
+
+        <SliderItem
+          img={"images/samsung.png"}
+          desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis animi nemo omnis illum recusandae optio numquam magni in vel sapiente, voluptates maxime, cupiditate molestiae officia necessitatibus consequatur explicabo aspernatur eaque."
+          title="Samsung S23 Ultra"
         />
 
         {/* Default Slider Item */}
