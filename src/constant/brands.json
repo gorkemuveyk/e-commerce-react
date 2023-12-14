@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Regal",
+    "image": "images/regal.jpeg"
+  },
+  {
+    "name": "Joystar",
+    "image": "images/joystar.jpeg"
+  },
+  {
+    "name": "English Home",
+    "image": "images/english-home.jpeg"
+  },
+  {
+    "name": "HP",
+    "image": "images/hp.jpeg"
+  },
+  {
+    "name": "Karaca Home",
+    "image": "images/karaca-home.jpeg"
+  },
+  {
+    "name": "MSI",
+    "image": "images/msi.jpeg"
+  },
+  {
+    "name": "Yataş",
+    "image": "images/yatas.jpeg"
+  },
+  {
+    "name": "Flo",
+    "image": "images/flo.jpeg"
+  },
+  {
+    "name": "Tefal",
+    "image": "images/tefal.jpeg"
+  },
+  {
+    "name": "Arzum",
+    "image": "images/arzum.jpeg"
+  },
+  {
+    "name": "June",
+    "image": "images/june.jpeg"
+  },
+  {
+    "name": "Ayakkabı Dünyası",
+    "image": "images/ayakkabi-dunyasi.jpeg"
+  }
+]

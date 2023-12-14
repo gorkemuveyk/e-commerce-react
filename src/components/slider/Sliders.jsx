@@ -23,6 +23,7 @@ const Sliders = () => {
     autoplaySpeed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
   };
   return (
     <div className="w-10/12 mx-auto mt-5 relative">
