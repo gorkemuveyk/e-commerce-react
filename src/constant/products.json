@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Apple Watch SE",
+    "description": "Description Description Description Description",
+    "image": "apple-watch-se.png",
+    "price": 6000,
+    "badge": "For You"
+  },
+  {
+    "name": "Huawei Matebook 13",
+    "description": "Description Description Description Description",
+    "image": "huawei-matebook-13.png",
+    "price": 1500,
+    "badge": "For You"
+  },
+  {
+    "name": "Huawei Watch GT Classic",
+    "description": "Description Description Description Description",
+    "image": "huawei-watch-gt-classic.png",
+    "price": 900,
+    "badge": "Hot"
+  },
+  {
+    "name": "iPhone 15 Pro",
+    "description": "Description Description Description Description",
+    "image": "iphone-15-pro.png",
+    "price": 3500,
+    "badge": "Hot"
+  },
+  {
+    "name": "iPhone 15",
+    "description": "Description Description Description Description",
+    "image": "iphone-15.png",
+    "price": 2900,
+    "badge": "For You"
+  },
+  {
+    "name": "iPhone 15 Pro",
+    "description": "Description Description Description Description",
+    "image": "iphone-15-pro.png",
+    "price": 3500,
+    "badge": "Hot"
+  },
+  {
+    "name": "iPhone 15",
+    "description": "Description Description Description Description",
+    "image": "iphone-15.png",
+    "price": 2900,
+    "badge": "For You"
+  },
+  {
+    "name": "Logitech G Pro LOL",
+    "description": "Description Description Description Description",
+    "image": "logitech-g-pro-lol.png",
+    "price": 400,
+    "badge": "New"
+  },
+  {
+    "name": "Logitech G502",
+    "description": "Description Description Description Description",
+    "image": "logitech-g502.png",
+    "price": 495,
+    "badge": "Hot"
+  },
+  {
+    "name": "Logitech K380 Bluetooth Set",
+    "description": "Description Description Description Description",
+    "image": "logitech-k380-bluetoot-set.png",
+    "price": 750,
+    "badge": "For You"
+  },
+  {
+    "name": "Logitech M350",
+    "description": "Description Description Description Description",
+    "image": "logitech-m350.png",
+    "price": 300,
+    "badge": "For You"
+  },
+  {
+    "name": "Logitech G Pro LOL",
+    "description": "Description Description Description Description",
+    "image": "logitech-g-pro-lol.png",
+    "price": 400,
+    "badge": "New"
+  },
+  {
+    "name": "Xiaomi Mi Notebook Pro",
+    "description": "Description Description Description Description",
+    "image": "xiaomi-mi-notebook-pro.png",
+    "price": 2650,
+    "badge": "For You"
+  },
+  {
+    "name": "Samsung A72",
+    "description": "Description Description Description Description",
+    "image": "samsung-a72.png",
+    "price": 1600,
+    "badge": "Hot"
+  },
+  {
+    "name": "Logitech K380 Bluetooth Set",
+    "description": "Description Description Description Description",
+    "image": "logitech-k380-bluetoot-set.png",
+    "price": 750,
+    "badge": "For You"
+  },
+  {
+    "name": "Logitech M350",
+    "description": "Description Description Description Description",
+    "image": "logitech-m350.png",
+    "price": 300,
+    "badge": "For You"
+  },
+  {
+    "name": "Xiaomi Mi 10T",
+    "description": "Description Description Description Description",
+    "image": "xiaomi-mi-10t.png",
+    "price": 1450,
+    "badge": "Hot"
+  },
+  {
+    "name": "Xiaomi Mi Notebook Pro",
+    "description": "Description Description Description Description",
+    "image": "xiaomi-mi-notebook-pro.png",
+    "price": 2650,
+    "badge": "For You"
+  },
+  {
+    "name": "Xiaomi Mi Smart Band 6",
+    "description": "Description Description Description Description",
+    "image": "xiaomi-mi-smart-band6.png",
+    "price": 700,
+    "badge": "Hot"
+  },
+  {
+    "name": "Xiaomi Watch 2",
+    "description": "Description Description Description Description",
+    "image": "xiaomi-mi-10t.png",
+    "price": 1150,
+    "badge": "New"
+  }
+]
