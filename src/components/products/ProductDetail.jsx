@@ -1,10 +1,11 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import products from "../../constant/products.json";
 import "./ProductDetail.css";
 import { BsBasket3Fill } from "react-icons/bs";
 import { FaHeart, FaStar } from "react-icons/fa";
 import CommentItem from "../comments/CommentItem";
 import { GiCargoCrate } from "react-icons/gi";
+import ProductItem from "./ProductItem";
 
 const ProductDetail = () => {
   const { id: dataID } = useParams();
@@ -86,8 +87,26 @@ const ProductDetail = () => {
           </div>
         </div>
       </div>
-      <div className="comments">
+
+      <h2 className="text-4xl text-orange-500">Comments</h2>
+      <div className="comments flex flex-wrap justify-center">
         <CommentItem />
+        <CommentItem />
+        <CommentItem />
+        <CommentItem />
+      </div>
+
+      <h2 className="text-4xl text-orange-500">Our picks for you</h2>
+      <div className="for-you lg:flex lg:justify-center lg:items-center w-full">
+        {products.slice(0, 4).map((product) => (
+          <Link
+            key={product.id}
+            to={`/product-detail/${product.id}`}
+            className="sm:w-full md:w-1/2 lg:w-1/4 xl:w-1/4 2xl:w-1/5 w-full"
+          >
+            <ProductItem product={product} />
+          </Link>
+        ))}
       </div>
     </>
   );
