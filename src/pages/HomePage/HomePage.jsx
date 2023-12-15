@@ -10,6 +10,7 @@ const Home = () => {
       <Sliders />
       <BrandList />
       <ProductList />
+      <BrandList />
     </div>
   );
 };

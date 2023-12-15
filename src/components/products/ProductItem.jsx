@@ -4,7 +4,7 @@ import { BsBasket3Fill } from "react-icons/bs";
 const ProductItem = ({ product }) => {
   return (
     <div
-      className="sm:w-full md:w-1/2 lg:w-1/4 xl:w-1/4 2xl:w-1/5 p-2 w-full relative cursor-pointer flex flex-col "
+      className="p-2 w-full relative cursor-pointer flex flex-col "
       title={product.description}
     >
       <img

@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Apple Watch SE",
     "description": "Description Description Description Description",
     "image": "apple-watch-se.png",
@@ -7,6 +8,7 @@
     "badge": "For You"
   },
   {
+    "id": 2,
     "name": "Huawei Matebook 13",
     "description": "Description Description Description Description",
     "image": "huawei-matebook-13.png",
@@ -14,6 +16,7 @@
     "badge": "For You"
   },
   {
+    "id": 3,
     "name": "Huawei Watch GT Classic",
     "description": "Description Description Description Description",
     "image": "huawei-watch-gt-classic.png",
@@ -21,6 +24,7 @@
     "badge": "Hot"
   },
   {
+    "id": 4,
     "name": "iPhone 15 Pro",
     "description": "Description Description Description Description",
     "image": "iphone-15-pro.png",
@@ -28,6 +32,7 @@
     "badge": "Hot"
   },
   {
+    "id": 5,
     "name": "iPhone 15",
     "description": "Description Description Description Description",
     "image": "iphone-15.png",
@@ -35,6 +40,7 @@
     "badge": "For You"
   },
   {
+    "id": 6,
     "name": "iPhone 15 Pro",
     "description": "Description Description Description Description",
     "image": "iphone-15-pro.png",
@@ -42,6 +48,7 @@
     "badge": "Hot"
   },
   {
+    "id": 7,
     "name": "iPhone 15",
     "description": "Description Description Description Description",
     "image": "iphone-15.png",
@@ -49,6 +56,7 @@
     "badge": "For You"
   },
   {
+    "id": 8,
     "name": "Logitech G Pro LOL",
     "description": "Description Description Description Description",
     "image": "logitech-g-pro-lol.png",
@@ -56,6 +64,7 @@
     "badge": "New"
   },
   {
+    "id": 9,
     "name": "Logitech G502",
     "description": "Description Description Description Description",
     "image": "logitech-g502.png",
@@ -63,6 +72,7 @@
     "badge": "Hot"
   },
   {
+    "id": 10,
     "name": "Logitech K380 Bluetooth Set",
     "description": "Description Description Description Description",
     "image": "logitech-k380-bluetoot-set.png",
@@ -70,6 +80,7 @@
     "badge": "For You"
   },
   {
+    "id": 11,
     "name": "Logitech M350",
     "description": "Description Description Description Description",
     "image": "logitech-m350.png",
@@ -77,6 +88,7 @@
     "badge": "For You"
   },
   {
+    "id": 12,
     "name": "Logitech G Pro LOL",
     "description": "Description Description Description Description",
     "image": "logitech-g-pro-lol.png",
@@ -84,6 +96,7 @@
     "badge": "New"
   },
   {
+    "id": 13,
     "name": "Xiaomi Mi Notebook Pro",
     "description": "Description Description Description Description",
     "image": "xiaomi-mi-notebook-pro.png",
@@ -91,6 +104,7 @@
     "badge": "For You"
   },
   {
+    "id": 14,
     "name": "Samsung A72",
     "description": "Description Description Description Description",
     "image": "samsung-a72.png",
@@ -98,6 +112,7 @@
     "badge": "Hot"
   },
   {
+    "id": 15,
     "name": "Logitech K380 Bluetooth Set",
     "description": "Description Description Description Description",
     "image": "logitech-k380-bluetoot-set.png",
@@ -105,6 +120,7 @@
     "badge": "For You"
   },
   {
+    "id": 16,
     "name": "Logitech M350",
     "description": "Description Description Description Description",
     "image": "logitech-m350.png",
@@ -112,6 +128,7 @@
     "badge": "For You"
   },
   {
+    "id": 17,
     "name": "Xiaomi Mi 10T",
     "description": "Description Description Description Description",
     "image": "xiaomi-mi-10t.png",
@@ -119,6 +136,7 @@
     "badge": "Hot"
   },
   {
+    "id": 18,
     "name": "Xiaomi Mi Notebook Pro",
     "description": "Description Description Description Description",
     "image": "xiaomi-mi-notebook-pro.png",
@@ -126,6 +144,7 @@
     "badge": "For You"
   },
   {
+    "id": 19,
     "name": "Xiaomi Mi Smart Band 6",
     "description": "Description Description Description Description",
     "image": "xiaomi-mi-smart-band6.png",
@@ -133,6 +152,7 @@
     "badge": "Hot"
   },
   {
+    "id": 20,
     "name": "Xiaomi Watch 2",
     "description": "Description Description Description Description",
     "image": "xiaomi-mi-10t.png",
