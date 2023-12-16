@@ -1,7 +1,14 @@
 import PropType from "prop-types";
+import { useEffect } from "react";
 import { BsBasket3Fill } from "react-icons/bs";
+import { useDispatch } from "react-redux";
+import { addBasket } from "../../redux/slices/basketSlice";
 
 const ProductItem = ({ product }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+  const dispatch = useDispatch();
   return (
     <div
       className="p-2 my-5 w-full relative cursor-pointer flex flex-col "
@@ -21,10 +28,10 @@ const ProductItem = ({ product }) => {
         </p>
         <div className="flex justify-around mt-2">
           <span className="bg-orange-600 p-1 rounded-md text-white">
-            {product.price} TL
+            ${product.price}
           </span>
           <span className=" p-1 rounded-md text-green-500">
-            <BsBasket3Fill size={24} />
+            <BsBasket3Fill onClick={() => dispatch(addBasket(product))} size={24} />
           </span>
         </div>
       </div>

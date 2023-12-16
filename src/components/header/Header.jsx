@@ -1,8 +1,12 @@
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 import { CiSearch } from "react-icons/ci";
+import { BsFillBasket3Fill } from "react-icons/bs";
+import { useSelector } from "react-redux";
 
 const Header = () => {
+  const val = useSelector((state) => state.basket.count);
+
   return (
     <header className="p-4 bg-orange-500 text-white flex flex-col sm:flex-row justify-between items-center">
       <div className="mb-2 sm:mb-0">
@@ -22,6 +26,13 @@ const Header = () => {
         />
       </div>
       <div className="flex justify-center items-center mt-4 sm:mt-0">
+        <NavLink
+          className="p-2 rounded-md flex justify-center items-center gap-1"
+          to={"/basket"}
+        >
+          <span className="">{val}</span>
+          <BsFillBasket3Fill />
+        </NavLink>
         <NavLink className="p-2 rounded-md" to={"/"}>
           Home
         </NavLink>

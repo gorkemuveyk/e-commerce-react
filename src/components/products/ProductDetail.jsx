@@ -6,14 +6,22 @@ import { FaHeart, FaStar } from "react-icons/fa";
 import CommentItem from "../comments/CommentItem";
 import { GiCargoCrate } from "react-icons/gi";
 import ProductItem from "./ProductItem";
+import { useDispatch } from "react-redux";
+import { addBasket } from "../../redux/slices/basketSlice";
+
+import { useSelector } from "react-redux";
+import ToastMessage from "../toast-message/ToastMessage";
 
 const ProductDetail = () => {
   const { id: dataID } = useParams();
   const item = products.find((product) => product.id === parseInt(dataID));
+  const dispatch = useDispatch();
+  const showToast = useSelector(state => state.basket.showToast)
 
   return (
     <>
       <div className="product-detail flex lg:flex-row flex-col justify-center md:items-center md:justify-center gap-5  p-3 ">
+        {showToast && <ToastMessage />}
         <div className="images flex flex-col justify-center items-center">
           <img src={`/images/${item.image}`} className="w-[350px] " alt="" />
           <div className="sub-images flex justify-center items-center gap-2">
@@ -44,6 +52,7 @@ const ProductDetail = () => {
             <FaStar className="text-orange-500" size={22} />
             <FaStar size={22} />
           </div>
+          <p className="text-green-500">In Stock</p>
           <p className="description sm:w-[350px] md:w-[500px] w-[300px] my-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
             dolore inventore neque ad nisi maxime et? Maiores dignissimos ea
@@ -65,16 +74,17 @@ const ProductDetail = () => {
 
           <div className="p-2 h-22 md:h-14 flex flex-col md:flex-row md:justify-between items-center">
             <div className="buttons flex">
-              <button className="hover:bg-orange-500 hover:text-white transition-colors border-orange-500 border p-2 rounded-md text-orange-500 me-5 flex justify-center items-center ">
-                <BsBasket3Fill /> Buy Now
+              <button className="hover:bg-orange-500 hover:text-white transition-colors border-orange-500 border p-2 rounded-md text-orange-500 me-5 flex justify-center items-center gap-1" onClick={() => dispatch(addBasket(item))}>
+                <BsBasket3Fill />
+                Buy Now
               </button>
-              <button className="hover:bg-red-500 hover:text-white transition-colors border-red-500 border p-2 rounded-md text-red-500 flex justify-center items-center gap-3">
+              <button className="hover:bg-red-500 hover:text-white transition-colors border-red-500 border p-2 rounded-md text-red-500 flex justify-center items-center gap-1">
                 <FaHeart />
                 Add Favorites
               </button>
             </div>
             <div className="price bg-orange-500 p-2 rounded-md text-white relative md:w-1/5 w-full mt-2 md:mt-0 text-center">
-              {item.price} TL
+              ${item.price}
             </div>
           </div>
 
