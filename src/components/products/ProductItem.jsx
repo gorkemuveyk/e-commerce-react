@@ -5,8 +5,10 @@ import { useDispatch } from "react-redux";
 import { addBasket } from "../../redux/slices/basketSlice";
 
 const ProductItem = ({ product }) => {
+
   useEffect(() => {
     window.scrollTo(0, 0);
+    document.querySelector('input[type=search]').value = ""
   });
   const dispatch = useDispatch();
   return (
