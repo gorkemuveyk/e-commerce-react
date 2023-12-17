@@ -4,6 +4,7 @@ import MainLayout from "../layouts/MainLayout";
 import Home from "../pages/HomePage/HomePage";
 import ProductDetail from "../components/products/ProductDetail";
 import ProductDetailsLayout from "../layouts/ProductDetailsLayout";
+import BasketList from "../components/basket/BasketList";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/basket",
+        element: <BasketList />
       },
       {
         path: "/product-detail/:id",

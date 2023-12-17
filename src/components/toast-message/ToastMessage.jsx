@@ -22,7 +22,7 @@ const ToastMessage = () => {
     return (
         <motion.div
             animate={{ x: -10 }}
-            className="absolute bottom-4 right-4 toast-message bg-green-500 p-3 rounded-md text-white flex justify-center items-center gap-2"
+            className="absolute bottom-4 z-50 right-4 toast-message bg-green-500 p-3 rounded-md text-white flex justify-center items-center gap-2"
         >
             Product Added <MdDoneAll />
         </motion.div>
