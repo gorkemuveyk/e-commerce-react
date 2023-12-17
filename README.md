@@ -1,10 +1,10 @@
-#Live Demo
+# Live Demo
 
 [https://e-commerce-react-sandy-sigma.vercel.app/](https://e-commerce-react-sandy-sigma.vercel.app/)
 
 
 
-##Preview
+## Preview
 <div align="center">
   <img src="public/images/mobile.png" alt="Resim 1" width="30%">
   <img src="public/images/tablet.png" alt="Resim 2" width="50%">
@@ -12,9 +12,9 @@
 </div>
 
 
-#Installation
+# Installation
 
-####Clone
+#### Clone
 ```
 git clone https://github.com/gorkemuveyk/e-commerce-react.git
 ```
@@ -24,7 +24,7 @@ git clone https://github.com/gorkemuveyk/e-commerce-react.git
 npm i
 ```
 
-####Start
+#### Start
 ```
 npm run dev
 ```
