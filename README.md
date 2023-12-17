@@ -18,7 +18,7 @@
 ```
 git clone https://github.com/gorkemuveyk/e-commerce-react.git
 ```
-####Package Installation
+#### Package Installation
 
 ``` 
 npm i
